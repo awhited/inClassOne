@@ -1,3 +1,27 @@
 body, html {
   font-size: 12px;
+  font-family: 'Helvetica Neue', Helvetica, sans-serif; 
+}
+
+.std-p {
+  color: green;
+  font-size: 1.5rem;
+}
+
+nav ul {
+  list-type: none;
+  padding: 0;
+  text-align: center;
+}
+nav ul li {
+  display: inline-block;
+  margin-right: 20px;
+}
+
+nav ul li:last-child {
+  margin-right: 0;
+}
+nav ul li > a {
+	color: red;
+    font-size: 1.5rem;	
 }
