@@ -3,6 +3,9 @@ body, html {
   font-family: 'Helvetica Neue', Helvetica, sans-serif; 
 }
 
+#beans {
+  text-align: left;  
+}
 .std-p {
   color: green;
   font-size: 1.5rem;
@@ -13,6 +16,7 @@ nav ul {
   padding: 0;
   text-align: center;
 }
+
 nav ul li {
   display: inline-block;
   margin-right: 20px;
@@ -21,7 +25,10 @@ nav ul li {
 nav ul li:last-child {
   margin-right: 0;
 }
+
 nav ul li > a {
-	color: red;
-    font-size: 1.5rem;	
+  color: red;
+  font-size: 1.5rem;	
 }
+
+
